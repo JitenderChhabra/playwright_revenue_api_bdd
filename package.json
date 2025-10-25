@@ -1,0 +1,20 @@
+{
+  "name": "playwright-revenue-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --format json:reports/cucumber_report.json && node reports/generate-html-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/pretty-formatter": "^2.3.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.56.1"
+  }
+}
