@@ -39,7 +39,7 @@ npx playwright install
 🧪 Running Tests
 Run all API tests
 
-npx cucumber-js
+npx cucumber-js / npm test
 
 🧱 Reporting
 
